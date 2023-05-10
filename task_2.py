@@ -1,9 +1,6 @@
 import os
 import sqlalchemy as sq
-from sqlalchemy.orm import declarative_base, relationship, sessionmaker
-import json
-import pprint
-
+from sqlalchemy.orm import sessionmaker
 from task_1 import Publisher, Shop, Book, Stock, Sale
 
 login = os.getenv('login')
